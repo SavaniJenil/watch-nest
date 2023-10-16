@@ -1,3 +1,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.scroll-container {
+    width: 100%;
+    max-width: 100%;
+    overflow: auto;
+    scrollbar-width: none; 
+    -ms-overflow-style: none; 
+  }
+  
+  .scroll-container::-webkit-scrollbar {
+    width: 0;
+    display: none; 
+  }
