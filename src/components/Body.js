@@ -5,7 +5,7 @@ import { Outlet } from 'react-router-dom'
 
 const Body = () => {
   return (
-    <div className='flex justify-start'>
+    <div className='flex justify-between'>
         <SideBar />
         <Outlet />
     </div>

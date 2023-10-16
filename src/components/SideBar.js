@@ -8,7 +8,7 @@ const SideBar = () => {
   return (
     <div>
       {isMenuOpen1 ? (
-        <div className="flex w-42 shadow-md px-2 flex-col h-screen overflow-y-scroll ">
+        <div className="flex w-42 shadow-md px-2 flex-col h-screen scroll-container">
           <div className="sec-1 px-4 border-b py-3 flex justify-start">
             <ul className="w-full">
                 <Link to='/'>
